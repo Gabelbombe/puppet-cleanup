@@ -1,0 +1,58 @@
+{
+  "name": "ehime-cleanup",
+  "version": "1.0.0",
+  "source": "git://github.com/ehime/puppet-cleanup.git",
+  "author": "Jd Daniel",
+  "license": "Apache-2.0",
+  "summary": "Puppet module for oikology",
+  "description": "Module to cleanup files and directories specified implementing Puppet ::tidy",
+  "project_page": "https://github.com/ehime/puppet-cleanup",
+  "issues_url": "https://github.com/ehime/puppet-cleanup/issues",
+  "source": "git://github.com/ehime/puppet-cleanup.git",
+  "tags": ["cleanup", "oikology", "rm"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Centos",
+      "operatingsystemrelease": [
+        "5.0",
+        "6.0",
+        "7.0"
+      ]
+    },
+      {
+        "operatingsystem": "Ubuntu",
+        "operatingsystemrelease": [
+          "12.04",
+          "13.10",
+          "14.04"
+        ]
+      },
+      {
+        "operatingsystem": "Debian",
+        "operatingsystemrelease": [
+          "6",
+          "7"
+        ]
+      }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.8.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.8.x"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.1.0"
+    },
+    {
+      "name": "puppet/download_file",
+      "version_requirement": ">= 1.2.1"
+    }
+  ]
+}
